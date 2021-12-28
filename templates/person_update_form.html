@@ -1,0 +1,10 @@
+{% extends 'portfolio/templates/contact.html' %}
+
+{% block content %}
+<h1>hello</h1>
+  <form method="post">
+    {% csrf_token %}
+    {{ form }}
+    <button type="submit" class="btn btn-success">Save person</button>
+  </form>
+{% endblock %}
