@@ -31,6 +31,8 @@ ALLOWED_HOSTS = ['127.0.0.1','portfolio-django-divyesh.herokuapp.com']
 # Application definition
 
 INSTALLED_APPS = [
+    'whitenoise.runserver_nostatic',
+    'django.contrib.staticfiles',
     'home',
     'django.contrib.admin',
     'django.contrib.auth',
