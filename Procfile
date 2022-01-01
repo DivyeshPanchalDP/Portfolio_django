@@ -1,1 +1,1 @@
-web: gunicorn portfolio.wsgi:application --log-file - --log-level debug
+web: gunicorn portfolio.wsgi --log-file -
