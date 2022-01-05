@@ -23,7 +23,7 @@ def projects(request):
     #return HttpResponse ("projects")
     return render (request,'projects.html')
 
-
+'''
 def contact(request):
     
     #return HttpResponse ("contact")
@@ -35,7 +35,7 @@ def contact(request):
         instance = Contact(email = email,name = name,companyname = companyname,info = info)
         instance.save()
     return render (request,'contact.html')
-
+'''
 '''class AboutView(TemplateView):
     template_name = "contact.html"'''
 
